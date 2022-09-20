@@ -1,0 +1,23 @@
+package z;
+
+import java.util.Scanner;
+
+public class fs {
+
+	public static void main(String[] args) {
+		int i,j,k,l;
+		System.out.println("masukan n :");
+		Scanner inputan = new Scanner(System.in);
+		l = inputan.nextInt();
+				for(i=0;i<=l;i++) {
+					for(j=1;j>=l-i;j--) {
+						System.out.print("");
+					}
+					for(k=1;k<=i;k++) {
+						System.out.print("*");
+					}
+					System.out.println();
+				}
+	}
+
+}
